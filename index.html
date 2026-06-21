@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jorge sanchez ">
+    <meta name="keywords" content="diseño web, css, modelo de caja, tablas css, unidades de medida">
+    <title>Maquetación Completa con CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>diseño de una pagina web </h1>
+        <p>Dominando las propiedades esenciales de CSS</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#modal-inicio">Inicio</a></li>
+            <li><a href="#modal-conceptos">Conceptos</a></li>
+            <li><a href="#modal-propiedades">Propiedades</a></li>
+            <li><a href="#modal-contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="contenedor-principal">
+        <section>
+            <h2>El modelo de caja</h2>
+            <p class="destacado">css nos permite controlar cada aspecto del diseño , desde la tipografía hasta la disposición de los elementos en la pantalla.</p>
+            
+            <div class="contenedor-imagen">
+                <img src="a1" alt="Espacio de trabajo de diseño web">
+                <p class="pie-imagen">Estructura visual y prototipado UI.</p>
+            </div>
+
+            <p>A continuación se presenta un resumen de las tecnologías clave y su compatibilidad actual en los navegadores web modernos:</p>
+
+            <table class="tabla-datos">
+                <thead>
+                    <tr>
+                        <th>Tecnología</th>
+                        <th>Uso Principal</th>
+                        <th>Soporte Global</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML5</td>
+                        <td>Estructura Semántica</td>
+                        <td>99.5%</td>
+                    </tr>
+                    <tr>
+                        <td>CSS3</td>
+                        <td>Estilos y Animación</td>
+                        <td>98.2%</td>
+                    </tr>
+                    <tr>
+                        <td>Flexbox / Grid</td>
+                        <td>Maquetación y Layouts</td>
+                        <td>97.8%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <aside>
+            <h3>Recursos</h3>
+            <p>Consulta las guías oficiales para profundizar en el uso de selectores avanzados y layouts complejos.</p>
+            <a href="#" class="boton">Leer más</a>
+        </aside>
+    </div>
+
+    <div id="modal-inicio" class="modal-contenedor">
+        <div class="modal-contenido">
+            <a href="#" class="modal-cerrar">&times;</a>
+            <h3>Bienvenido al Inicio</h3>
+            <p>Esta es la página principal de nuestro taller de maquetación web. Aquí aprenderás a estructurar contenido usando HTML5 y a darle un aspecto profesional con CSS3 de manera limpia y ordenada.</p>
+        </div>
+    </div>
+
+    <div id="modal-conceptos" class="modal-contenedor">
+        <div class="modal-contenido">
+            <a href="#" class="modal-cerrar">&times;</a>
+            <h3>¿Qué es el Modelo de Caja?</h3>
+            <p>En CSS, el <strong>Modelo de Caja (Box Model)</strong> es el núcleo del diseño web. Cada elemento se comporta como una caja rectangular compuesta por cuatro capas: el contenido real, el espacio interno (<em>padding</em>), el borde (<em>border</em>) y el espacio externo (<em>margin</em>).</p>
+        </div>
+    </div>
+
+    <div id="modal-propiedades" class="modal-contenedor">
+        <div class="modal-contenido">
+            <a href="#" class="modal-cerrar">&times;</a>
+            <h3>Propiedades Clave de CSS</h3>
+            <p>Las propiedades de CSS controlan el aspecto visual. En este ejemplo hemos usado <code>display: flex</code> para alinear columnas, <code>background-color</code> para los fondos, y propiedades de texto como <code>text-transform</code> para dar formato profesional.</p>
+        </div>
+    </div>
+
+    <div id="modal-contacto" class="modal-contenedor">
+        <div class="modal-contenido">
+            <a href="#" class="modal-cerrar">&times;</a>
+            <h3>Información de Contacto</h3>
+            <p>Diseño web desarrollado por <strong>Jorge Ulises Morales Sánchez</strong>.</p>
+            <p>Puedes integrar aquí un formulario de contacto, redes sociales o un correo electrónico institucional para recibir comentarios.</p>
+        </div>
+    </div>
+
+    <footer>
+<div class="contenido-footer">
+            <img src="a5.png"  class="imagen-footer">
+            <p>jorge Ulises Morales Sanchez </p>
+    </footer>
+
+</body>
+</html>
